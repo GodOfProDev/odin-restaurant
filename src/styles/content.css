@@ -1,0 +1,12 @@
+#content {
+    background-image: url("../assets/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content p {
+    font-weight: 600;
+    font-size: var(--size-2xl);
+    text-align: center;
+}

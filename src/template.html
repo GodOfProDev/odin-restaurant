@@ -8,6 +8,23 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-    <h1>Hello from template</h1>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li class="header__link">
+                    <button id="home-btn">Home</button>
+                </li>
+                <li class="header__link">
+                    <button id="menu-btn">Menu</button>
+                </li>
+                <li class="header__link">
+                    <button id="about-btn">About</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content">
+    </div>
 </body>
 </html>

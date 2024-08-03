@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+}
+
+.header__link {
+    font-size: var(--size-2xl);
+    text-decoration: none;
+    color: var(--clr-slate600);
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+}
+
+.header__link:hover {
+    color: var(--clr-rose);
+}
